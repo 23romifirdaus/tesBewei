@@ -12,7 +12,7 @@ const CartItem = ({ product }) => {
   return (
     <div className="row no-gutters py-2">
       <div className="col-sm-2 p-2">
-        <p>{product.name}</p>
+        <p>{product.title}</p>
       </div>
       <div className="col-sm-2 p-2 text-center ">
         <p className="mb-0">Qty: {product.quantity}</p>

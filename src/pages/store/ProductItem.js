@@ -10,7 +10,7 @@ const ProductItem = ({ product }) => {
 
   return (
     <div className="card card-body">
-      <p>{product.name}</p>
+      <p>{product.title}</p>
       <div className="text-right">
         {isInCart(product) && (
           <button
