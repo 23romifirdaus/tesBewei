@@ -8,8 +8,8 @@ const ProductsGrid = () => {
   return (
     <div>
       <div>
-        {products.map((product) => (
-          <ProductItem key={product.id} product={product} />
+        {products.title.map((product) => (
+          <ProductItem key={product.title} product={product} />
         ))}
       </div>
     </div>
